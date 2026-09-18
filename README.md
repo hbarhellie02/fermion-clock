@@ -20,6 +20,8 @@ This code is published for the purpose of independently verifying the results of
 | `transmission_clock.py` | Various functions to calculate relevant quantities of the clock: Transmission function, Finite-time noise D(t) and asymptotic noise D/J, steady-state covariance matrix
 | `mc_covariance_cluster.py` | Code for stochastic Monte Carlo simulation of the tick times, reasonably optimized for performance.
 
+The code was last tested using Python 3.10.11, with package versions as detailed in the `requirements.txt` file. Some of the plotting functions require a working LaTeX installation such as TeX Live.
+
 # Contact / Authorship
 
 This code has been authored by Florian Meier with input from all authors.
